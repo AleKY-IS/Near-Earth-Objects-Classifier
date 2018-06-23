@@ -5,13 +5,16 @@ Our solution uses Machine Learning model to detect potentially hazardous NEOs (N
 ## The solution can be seen as 3 main tracks:
 
 ### Classification 
-	Our solution provides a classification model that takes the orbit's parameters as an input of a NEO and classify it as potentially hazardous or not.
+
+Our solution provides a classification model that takes the orbit's parameters as an input of a NEO and classify it as potentially hazardous or not.
 
 ### Visualization 
-	Displaying distribution of potentially hazardous objects on the world map to visualize the severity of different areas.
+
+Displaying distribution of potentially hazardous objects on the world map to visualize the severity of different areas.
 
 ### Insights 
-	Our solution reveals hidden information from
+
+Our solution reveals hidden information from
 
 
 
@@ -20,16 +23,19 @@ isPha.py : has the random forest
 
 ## In Data Folder 
 
-### Meteorite_Landings.csv : Meteorite that have hit the earth
+### Meteorite_Landings.csv
+ Meteorite that have hit the earth
 
 ### from this [link](http://ssd.jpl.nasa.gov/sbdb_query.cgi#x) we managed to extract all asteroids and comets data.
 
-### Meteorites_smallObj.csv :
-data that h`ave a merge between the 2 files Meteorite_Landings.csv and the one generated from the previous link
+### Meteorites_smallObj.csv
+
+data that have a merge between the 2 files Meteorite_Landings.csv and the one generated from the previous link
 exploiting the fact that there is a common field between the 2 datasets, which is the name of the object.
 The data represent the metr?? before hitting the earth that have eventually turned into meteroites.
 
 ### NEA_labeled.csv
+
 This file has the information about the orbit of each object, this fils is used by the classifier.
 
 ## Simple presentation
